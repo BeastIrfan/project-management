@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Project - Project Board</title>
+    <link rel="stylesheet" href="project-posting.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Project Board</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="coordinator-dashboard.html">Dashboard</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="post-project">
+        <h2>Post a New Project</h2>
+        <form action="#" method="POST" class="post-form">
+            <label for="title">Project Title</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <label for="deadline">Deadline</label>
+            <input type="date" id="deadline" name="deadline" required>
+
+            <button type="submit" class="btn">Post Project</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Project Board | Designed for Efficiency and Innovation</p>
+    </footer>
+</body>
+</html>
